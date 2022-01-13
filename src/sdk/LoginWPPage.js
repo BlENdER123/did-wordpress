@@ -44,6 +44,7 @@ function LoginWPPage() {
 				<form method="post">
 					<input value={data.token} id="token" name="token" className="hide" />
 					<input value={data.did} id="did" name="did" className="hide" />
+					<input id="name" name="name"></input>
 					<p>
 						<input type="submit" value="Log In" className="btn btn-secondary" />
 					</p>
