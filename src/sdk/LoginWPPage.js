@@ -41,14 +41,11 @@ function LoginWPPage() {
 					Log in
 				</button> */}
 
-				<form method="post">
-					<input value={data.token} id="token" name="token" className="hide" />
-					<input value={data.did} id="did" name="did" className="hide" />
-					<input id="name" name="name"></input>
-					<p>
-						<input type="submit" value="Log In" className="btn btn-secondary" />
-					</p>
-				</form>
+				<input value={data.token} id="token" name="token" className="hide" />
+				<input value={data.did} id="did" name="did" className="hide" />
+				<input id="name" name="name"></input>
+
+				<button className="btn btn-secondary">Log In</button>
 			</div>
 		</Router>
 	);
